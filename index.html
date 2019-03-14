@@ -1,12 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Calculator - Exercise 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Exercise2 - Hacktiv</title>
+  <link rel="stylesheet" href="normalize.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
+
 <body>
-    
+
+  <h1>Exercise2 Calculator - Hacktiv</h1>
+  <ul class="credits">
+    <li>By <a href="https://roderickhalim.github.io/" target="_blank">Roderick Halim</a></li>
+    <li><a href="https://github.com/roderickhalim/exercise2" target="_blank">GitHub</a></li>
+  </ul>
+
+  <div class="container">
+    <div class="output">
+      <div id="clearAll"></div>
+      <p id="result">0</p>
+      <p id="expression">0</p>
+    </div>
+    <!-- result ends -->
+
+    <div id="buttons">
+      <div class="numbers">
+
+        <button class="btn btn-num">7</button>
+        <button class="btn btn-num">8</button>
+        <button class="btn btn-num">9</button>
+
+        <button class="btn btn-num">4</button>
+        <button class="btn btn-num">5</button>
+        <button class="btn btn-num">6</button>
+
+        <button class="btn btn-num">1</button>
+        <button class="btn btn-num">2</button>
+        <button class="btn btn-num">3</button>
+
+        <button class="btn btn-num">.</button>
+        <button class="btn btn-num">0</button>
+        <button class="btn btn-num">=</button>
+
+      </div>
+      <!-- numbers end -->
+
+      <div class="operators">
+        <button class="btn btn-opr">ac</button>
+        <button class="btn btn-opr">/</button>
+        <button class="btn btn-opr">x</button>
+        <button class="btn btn-opr">-</button>
+        <button class="btn btn-opr">+</button>
+      </div>
+      <!-- operators end -->
+
+    </div>
+    <!-- buttons end -->
+
+  </div>
+  <!-- container ends -->
+
+  <script src="main.js"></script>
 </body>
+
 </html>
